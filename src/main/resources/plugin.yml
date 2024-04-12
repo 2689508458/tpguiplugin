@@ -1,0 +1,13 @@
+name: tpgui
+version: '${project.version}'
+main: com.tpgui.Tpgui
+api-version: '1.20'
+commands:
+  tpgui:
+    description: 打开传送GUI
+    usage: "/tpgui"
+    permission: tpgui.use
+permissions:
+  tpgui.use:
+    description: 允许使用TP GUI
+    default: op
